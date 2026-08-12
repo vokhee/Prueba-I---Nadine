@@ -1,0 +1,112 @@
+body{
+    background-color: beige;
+}
+
+.navbar {
+  background: #ffff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 0.75rem 0;
+}
+
+.btn-iniciar {
+  background: #1a5f9e;
+  color: #1a5f9e;
+  border: none;
+  border-radius: 6px;                  
+  padding: 6px 18px;                   
+  font-weight: 600;
+}
+
+.hero {
+  background:url('../img/oceano.jpg') center/cover no-repeat;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero-content h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  letter-spacing: -0.02em;
+}
+
+.oportunidades {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bi {
+  font-size: 4rem;
+  color: #3f6e99;
+}
+
+.card-oportunidad {
+  background: #fff;
+  border: none;
+  border-radius: 12px;                 
+  padding: 32px 24px;                  
+  text-align: center;
+  height: 100%;
+}
+
+.card-oportunidad h5 {
+  font-weight: 700;
+  margin-bottom: 10px;                
+}
+
+.card-oportunidad p {
+  font-size: 10px;                  
+  color: gray;
+  margin: 0;
+}
+
+
+.seccion-split {
+  background: #fff;
+}
+
+.split-text {
+  max-width: 480px;
+}
+
+.split-text h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--texto-oscuro);
+  margin-bottom: 1rem;
+}
+
+.split-text p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #5a6a7a;
+  margin: 0;
+}
+
+.split-img {
+  height: 100%;
+  min-height: 340px;
+  overflow: hidden;
+}
+
+.split-img img {
+  width: 100%;
+  height: 100%;
+  min-height: 340px;
+  object-fit: cover;
+  display: block;
+}
+
+footer {
+  background: #f8f9fa;
+  color: #718096;
+  padding: 18px 0;
+  font-size: 0.875rem;
+  size: 100px;
+}
